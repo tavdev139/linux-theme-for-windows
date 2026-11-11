@@ -1,0 +1,16 @@
+{
+  "name": "Samsung Linux OS Theme",
+  "short_name": "LinuxTheme",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a0a2e",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "wallpapers/ubuntu_galaxy.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

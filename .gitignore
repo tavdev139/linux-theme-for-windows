@@ -1,0 +1,25 @@
+# Build artifacts
+*.exe
+*.dll
+*.bin
+*.pdb
+*.cache
+
+# Backup builds
+ArchPanel.before_*.exe
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Web (not part of Arch panel repo)
+index.html
+css/
+js/

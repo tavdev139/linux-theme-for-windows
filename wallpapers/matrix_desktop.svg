@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#040805" />
+      <stop offset="50%" stop-color="#07120a" />
+      <stop offset="100%" stop-color="#020503" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)" />
+
+  <!-- Matrix subtle code trails -->
+  <g font-family="'Courier New', monospace" font-size="16" fill="#00ff66" opacity="0.12">
+    <text x="60" y="100">0 1 1 0 1 0 0 1   K E R N E L _ O K</text>
+    <text x="60" y="140">s y s t e m d [ 1 ]   s t a r t e d</text>
+    <text x="320" y="80">G N U / L I N U X   A R M 6 4 + X 8 6 _ 6 4</text>
+    <text x="700" y="120">0 x 7 F F E 4 A 1 0   b a s h _ 5 . 2</text>
+    <text x="1400" y="90">S A M S U N G _ D E X   L I N U X</text>
+    <text x="1400" y="130">v m l i n u z - 6 . 1 . 0</text>
+    <text x="100" y="950">c p u 0 :   o n l i n e   @   3 . 3 9 G H z</text>
+    <text x="1200" y="980">M U L T I - D E V I C E   L I N U X   E D I T I O N</text>
+  </g>
+
+  <!-- Large Terminal Window HUD in Center-Right -->
+  <g transform="translate(640, 180)">
+    <rect width="1080" height="720" rx="20" fill="rgba(8, 20, 12, 0.9)" stroke="rgba(0, 255, 102, 0.35)" stroke-width="2" />
+    <path d="M0 20 Q0 0 20 0 L1060 0 Q1080 0 1080 20 L1080 50 L0 50 Z" fill="rgba(0, 35, 18, 0.95)" />
+    <circle cx="35" cy="25" r="7" fill="#e74c3c" />
+    <circle cx="60" cy="25" r="7" fill="#f1c40f" />
+    <circle cx="85" cy="25" r="7" fill="#2ecc71" />
+    <text x="540" y="32" font-family="'Ubuntu Mono', monospace" font-size="16" fill="#00ff66" text-anchor="middle">terminal — neofetch (Samsung Galaxy &amp; PC Multi-Device Edition)</text>
+
+    <g transform="translate(40, 100)" font-family="'Ubuntu Mono', 'Consolas', monospace" font-size="20" fill="#d1ffd9">
+      <text x="0" y="30" fill="#00ff66" font-weight="bold">root@galaxy-dex-pc</text>
+      <text x="210" y="30" fill="#ffffff">────────────────────────────────────────────</text>
+      
+      <text x="0" y="80"><tspan fill="#00ff66" font-weight="bold">OS:</tspan> OneUI / GNU Linux Mobile &amp; Desktop 6.1 (Hybrid aarch64 + x86_64)</text>
+      <text x="0" y="125"><tspan fill="#00ff66" font-weight="bold">Host:</tspan> Samsung Galaxy Smartphone / PC Workstation</text>
+      <text x="0" y="170"><tspan fill="#00ff66" font-weight="bold">Kernel:</tspan> 6.1.43-generic-multidevice</text>
+      <text x="0" y="215"><tspan fill="#00ff66" font-weight="bold">Shell:</tspan> zsh 5.9 + bash 5.2.15</text>
+      <text x="0" y="260"><tspan fill="#00ff66" font-weight="bold">DE:</tspan> GNOME 45.2 / Samsung DeX Desktop</text>
+      <text x="0" y="305"><tspan fill="#00ff66" font-weight="bold">WM:</tspan> Mutter-Wayland (Floating &amp; Tiling Windows)</text>
+      <text x="0" y="350"><tspan fill="#00ff66" font-weight="bold">Theme:</tspan> Matrix Cyber Dark (GTK 4 / Libadwaita)</text>
+      <text x="0" y="395"><tspan fill="#00ff66" font-weight="bold">Icons:</tspan> Papirus-Dark-Green</text>
+      <text x="0" y="440"><tspan fill="#00ff66" font-weight="bold">Display:</tspan> Adaptive Responsive 120Hz AMOLED / 4K UltraHD Monitor</text>
+      <text x="0" y="485"><tspan fill="#00ff66" font-weight="bold">Memory:</tspan> 4520MiB / 16384MiB (27%)</text>
+
+      <!-- Color blocks -->
+      <g transform="translate(0, 530)">
+        <rect x="0" y="0" width="60" height="24" fill="#000000" />
+        <rect x="70" y="0" width="60" height="24" fill="#e74c3c" />
+        <rect x="140" y="0" width="60" height="24" fill="#00ff66" />
+        <rect x="210" y="0" width="60" height="24" fill="#f1c40f" />
+        <rect x="280" y="0" width="60" height="24" fill="#3498db" />
+        <rect x="350" y="0" width="60" height="24" fill="#9b59b6" />
+        <rect x="420" y="0" width="60" height="24" fill="#00d4aa" />
+        <rect x="490" y="0" width="60" height="24" fill="#ffffff" />
+      </g>
+    </g>
+  </g>
+
+  <!-- Left Side Cyber Badge -->
+  <g transform="translate(140, 480)">
+    <text font-family="'Ubuntu Mono', monospace" font-size="48" font-weight="bold" fill="#00ff66" letter-spacing="4">MATRIX CONSOLE</text>
+    <text y="50" font-family="'Ubuntu Mono', monospace" font-size="22" fill="#66b277" letter-spacing="2">DUAL COMPATIBLE: MOBILE &amp; PC</text>
+    <text y="90" font-family="'Courier New', monospace" font-size="16" fill="rgba(0, 255, 102, 0.4)">[ PRESS CTRL+ALT+T FOR SHELL ]</text>
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 2400" width="1080" height="2400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050a07" />
+      <stop offset="50%" stop-color="#09140c" />
+      <stop offset="100%" stop-color="#030604" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="2400" fill="url(#bg)" />
+
+  <!-- Matrix rain columns subtle -->
+  <g font-family="'Courier New', monospace" font-size="20" fill="#00ff66" opacity="0.12">
+    <text x="60" y="200">0 1 1 0 1 0 0 1</text>
+    <text x="60" y="240">K E R N E L _ O K</text>
+    <text x="60" y="280">s y s t e m d [ 1 ]</text>
+    <text x="180" y="150">G N U / L I N U X</text>
+    <text x="180" y="190">A R M 6 4 _ V 8 A</text>
+    <text x="320" y="320">1 0 1 1 0 0 1 0 1</text>
+    <text x="480" y="180">0 x 7 F F E 4 A 1 0</text>
+    <text x="620" y="260">S A M S U N G _ U I</text>
+    <text x="760" y="170">v m l i n u z - 6 . 1</text>
+    <text x="900" y="290">r o o t @ g a l a x y</text>
+    <text x="120" y="1800">b a s h _ 5 . 2 . 1 5</text>
+    <text x="350" y="1920">e x p o r t   P A T H</text>
+    <text x="700" y="1850">0 1 0 0 1 1 0 1</text>
+  </g>
+
+  <!-- Terminal Window HUD in Center -->
+  <g transform="translate(90, 580)">
+    <!-- Window backdrop -->
+    <rect width="900" height="1100" rx="28" fill="rgba(10, 25, 15, 0.85)" stroke="rgba(0, 255, 102, 0.4)" stroke-width="2" />
+    
+    <!-- Titlebar -->
+    <path d="M0 28 Q0 0 28 0 L872 0 Q900 0 900 28 L900 70 L0 70 Z" fill="rgba(0, 40, 20, 0.95)" />
+    <circle cx="45" cy="35" r="10" fill="#e74c3c" />
+    <circle cx="80" cy="35" r="10" fill="#f1c40f" />
+    <circle cx="115" cy="35" r="10" fill="#2ecc71" />
+    <text x="450" y="44" font-family="'Ubuntu Mono', monospace" font-size="22" fill="#00ff66" text-anchor="middle">terminal — neofetch (Samsung OneUI)</text>
+
+    <!-- Terminal Content -->
+    <g transform="translate(45, 130)" font-family="'Ubuntu Mono', 'Consolas', monospace" font-size="24" fill="#d1ffd9">
+      <text x="0" y="30" fill="#00ff66" font-weight="bold">root@galaxy-s24</text>
+      <text x="210" y="30" fill="#ffffff">───────────────</text>
+      
+      <text x="0" y="80"><tspan fill="#00ff66" font-weight="bold">OS:</tspan> OneUI Linux Mobile 6.1 aarch64</text>
+      <text x="0" y="130"><tspan fill="#00ff66" font-weight="bold">Host:</tspan> Samsung Galaxy Smartphone</text>
+      <text x="0" y="180"><tspan fill="#00ff66" font-weight="bold">Kernel:</tspan> 6.1.43-android14-perf</text>
+      <text x="0" y="230"><tspan fill="#00ff66" font-weight="bold">Uptime:</tspan> 42 days, 13 hours</text>
+      <text x="0" y="280"><tspan fill="#00ff66" font-weight="bold">Shell:</tspan> zsh 5.9 + oh-my-zsh</text>
+      <text x="0" y="330"><tspan fill="#00ff66" font-weight="bold">Display:</tspan> 1440x3120 Dynamic AMOLED 2X 120Hz</text>
+      <text x="0" y="380"><tspan fill="#00ff66" font-weight="bold">DE:</tspan> OneUI / GNOME Hybrid</text>
+      <text x="0" y="430"><tspan fill="#00ff66" font-weight="bold">WM:</tspan> Mutter-Wayland</text>
+      <text x="0" y="480"><tspan fill="#00ff66" font-weight="bold">Theme:</tspan> Matrix-Cyber-Dark</text>
+      <text x="0" y="530"><tspan fill="#00ff66" font-weight="bold">Icons:</tspan> Papirus-Dark-Green</text>
+      <text x="0" y="580"><tspan fill="#00ff66" font-weight="bold">Terminal:</tspan> Alacritty Mobile</text>
+      <text x="0" y="630"><tspan fill="#00ff66" font-weight="bold">CPU:</tspan> Octa-Core Snapdragon (8) @ 3.39GHz</text>
+      <text x="0" y="680"><tspan fill="#00ff66" font-weight="bold">GPU:</tspan> Adreno 750 (Vulkan 1.3)</text>
+      <text x="0" y="730"><tspan fill="#00ff66" font-weight="bold">Memory:</tspan> 4520MiB / 11840MiB (38%)</text>
+
+      <!-- Color blocks -->
+      <g transform="translate(0, 800)">
+        <rect x="0" y="0" width="70" height="30" fill="#000000" />
+        <rect x="80" y="0" width="70" height="30" fill="#e74c3c" />
+        <rect x="160" y="0" width="70" height="30" fill="#00ff66" />
+        <rect x="240" y="0" width="70" height="30" fill="#f1c40f" />
+        <rect x="320" y="0" width="70" height="30" fill="#3498db" />
+        <rect x="400" y="0" width="70" height="30" fill="#9b59b6" />
+        <rect x="480" y="0" width="70" height="30" fill="#00d4aa" />
+        <rect x="560" y="0" width="70" height="30" fill="#ffffff" />
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Quick Launch Indicator -->
+  <g transform="translate(540, 2220)" text-anchor="middle">
+    <text font-family="'Ubuntu Mono', monospace" font-size="28" fill="#00ff66" opacity="0.8">▲ SWIPE UP FOR TERMINAL SHELL ▲</text>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140718" />
+      <stop offset="35%" stop-color="#2a082b" />
+      <stop offset="70%" stop-color="#551a3a" />
+      <stop offset="100%" stop-color="#0e0414" />
+    </linearGradient>
+    <radialGradient id="glow" cx="65%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#e95420" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#77216f" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#140718" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7b36" />
+      <stop offset="100%" stop-color="#e95420" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)" />
+  <rect width="1920" height="1080" fill="url(#glow)" />
+
+  <!-- Subtle Grid lines -->
+  <g stroke="rgba(255,255,255,0.025)" stroke-width="1">
+    <line x1="0" y1="270" x2="1920" y2="270" />
+    <line x1="0" y1="540" x2="1920" y2="540" />
+    <line x1="0" y1="810" x2="1920" y2="810" />
+    <line x1="480" y1="0" x2="480" y2="1080" />
+    <line x1="960" y1="0" x2="960" y2="1080" />
+    <line x1="1440" y1="0" x2="1440" y2="1080" />
+  </g>
+
+  <!-- Central Ubuntu Graphic Motif -->
+  <g transform="translate(1200, 540)" text-anchor="middle">
+    <circle r="260" fill="none" stroke="rgba(233, 84, 32, 0.15)" stroke-width="2" stroke-dasharray="10 14" />
+    <circle r="210" fill="rgba(233, 84, 32, 0.04)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1.5" />
+    
+    <circle cx="0" cy="0" r="160" fill="none" stroke="url(#orangeGrad)" stroke-width="20" stroke-linecap="round" />
+    
+    <circle cx="0" cy="-160" r="30" fill="#ff7b36" />
+    <circle cx="-138.5" cy="80" r="30" fill="#e95420" />
+    <circle cx="138.5" cy="80" r="30" fill="#f49d37" />
+
+    <!-- Tux Silhouette -->
+    <path d="M-45,25 C-45,-45 -28,-80 0,-80 C28,-80 45,-45 45,25 C45,70 28,90 0,90 C-28,90 -45,70 -45,25 Z" fill="#ffffff" opacity="0.95" />
+    <ellipse cx="-14" cy="-28" rx="7" ry="10" fill="#140718" />
+    <ellipse cx="14" cy="-28" rx="7" ry="10" fill="#140718" />
+    <polygon points="0,-12 -18,6 18,6" fill="#f49d37" />
+    <path d="M-25,30 C-25,2 0,-3 25,30 C25,65 0,80 -25,30 Z" fill="#ffffff" />
+  </g>
+
+  <!-- Typography Left Side -->
+  <g transform="translate(240, 500)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Ubuntu', 'Segoe UI', sans-serif" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="4">UBUNTU NOBLE</text>
+    <text x="0" y="60" font-family="'Ubuntu Mono', monospace" font-size="28" font-weight="400" fill="#ff7b36" letter-spacing="3">SAMSUNG GALAXY &amp; PC EDITION • 24.04 LTS</text>
+    <text x="0" y="110" font-family="'Ubuntu Mono', monospace" font-size="18" fill="rgba(255,255,255,0.4)" letter-spacing="1">Linux kernel 6.1 • GNOME 45 • Adaptive Multi-Device Theme</text>
+  </g>
+
+  <!-- Bottom Console Status Prompt -->
+  <g transform="translate(240, 940)">
+    <rect x="0" y="0" width="620" height="52" rx="12" fill="rgba(0, 0, 0, 0.45)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+    <text x="24" y="33" font-family="'Ubuntu Mono', 'Consolas', monospace" font-size="18" fill="#2ecc71">user@samsung</text>
+    <text x="145" y="33" font-family="'Ubuntu Mono', 'Consolas', monospace" font-size="18" fill="#ffffff">:</text>
+    <text x="160" y="33" font-family="'Ubuntu Mono', 'Consolas', monospace" font-size="18" fill="#3498db">~</text>
+    <text x="175" y="33" font-family="'Ubuntu Mono', 'Consolas', monospace" font-size="18" fill="#ffffff">$ systemctl status desktop-experience --active</text>
+  </g>
+</svg>

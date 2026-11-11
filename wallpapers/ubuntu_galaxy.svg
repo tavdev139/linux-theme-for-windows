@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 2400" width="1080" height="2400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140718" />
+      <stop offset="40%" stop-color="#2a082b" />
+      <stop offset="70%" stop-color="#551a3a" />
+      <stop offset="100%" stop-color="#0e0414" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="#e95420" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#77216f" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#140718" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7b36" />
+      <stop offset="100%" stop-color="#e95420" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="2400" fill="url(#bg)" />
+  <rect width="1080" height="2400" fill="url(#glow)" />
+
+  <!-- Subtle Grid lines -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <line x1="0" y1="400" x2="1080" y2="400" />
+    <line x1="0" y1="800" x2="1080" y2="800" />
+    <line x1="0" y1="1200" x2="1080" y2="1200" />
+    <line x1="0" y1="1600" x2="1080" y2="1600" />
+    <line x1="0" y1="2000" x2="1080" y2="2000" />
+    <line x1="270" y1="0" x2="270" y2="2400" />
+    <line x1="540" y1="0" x2="540" y2="2400" />
+    <line x1="810" y1="0" x2="810" y2="2400" />
+  </g>
+
+  <!-- Geometric Polygonal Linux Mascot/Logo Motif -->
+  <g transform="translate(540, 1050)" text-anchor="middle">
+    <!-- Outer Glow Circle -->
+    <circle r="220" fill="none" stroke="rgba(233, 84, 32, 0.2)" stroke-width="2" stroke-dasharray="8 12" />
+    <circle r="180" fill="rgba(233, 84, 32, 0.04)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1.5" />
+    
+    <!-- Ubuntu Circle of Friends / Tux Geometry -->
+    <circle cx="0" cy="0" r="140" fill="none" stroke="url(#orangeGrad)" stroke-width="18" stroke-linecap="round" />
+    
+    <!-- Dots of circle -->
+    <circle cx="0" cy="-140" r="26" fill="#ff7b36" />
+    <circle cx="-121.2" cy="70" r="26" fill="#e95420" />
+    <circle cx="121.2" cy="70" r="26" fill="#f49d37" />
+
+    <!-- Tux Silhouette Inner -->
+    <path d="M-40,20 C-40,-40 -25,-70 0,-70 C25,-70 40,-40 40,20 C40,60 25,80 0,80 C-25,80 -40,60 -40,20 Z" fill="#ffffff" opacity="0.9" />
+    <!-- Eyes -->
+    <ellipse cx="-12" cy="-25" rx="6" ry="9" fill="#140718" />
+    <ellipse cx="12" cy="-25" rx="6" ry="9" fill="#140718" />
+    <!-- Beak -->
+    <polygon points="0,-10 -15,5 15,5" fill="#f49d37" />
+    <!-- Belly -->
+    <path d="M-22,25 C-22,0 0,-5 22,25 C22,55 0,70 -22,25 Z" fill="#ffffff" />
+  </g>
+
+  <!-- Typography -->
+  <text x="540" y="1420" font-family="-apple-system, BlinkMacSystemFont, 'Ubuntu', 'Segoe UI', sans-serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="6" text-anchor="middle">SAMSUNG GALAXY</text>
+  <text x="540" y="1480" font-family="'Ubuntu Mono', monospace" font-size="28" font-weight="400" fill="#ff7b36" letter-spacing="4" text-anchor="middle">LINUX EDITION • 24.04 LTS</text>
+
+  <!-- Bottom Terminal Status Prompt -->
+  <g transform="translate(140, 2150)">
+    <rect x="0" y="0" width="800" height="90" rx="20" fill="rgba(0, 0, 0, 0.5)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+    <text x="35" y="55" font-family="'Ubuntu Mono', 'Consolas', monospace" font-size="26" fill="#2ecc71">user@galaxy</text>
+    <text x="210" y="55" font-family="'Ubuntu Mono', 'Consolas', monospace" font-size="26" fill="#ffffff">:</text>
+    <text x="230" y="55" font-family="'Ubuntu Mono', 'Consolas', monospace" font-size="26" fill="#3498db">~</text>
+    <text x="250" y="55" font-family="'Ubuntu Mono', 'Consolas', monospace" font-size="26" fill="#ffffff">$ uname -r → 6.1.0-samsung</text>
+  </g>
+</svg>
