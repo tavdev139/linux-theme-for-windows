@@ -14,11 +14,12 @@ Tema dan shell overlay Arch Linux untuk Windows 10/11. Mengubah tampilan Windows
 
 ## Cara Menjalankan
 
-1. Pastikan file `ArchPanel.exe` ada di folder `C:\Users\labta\Downloads\theme`.
-2. Klik dua kali `jalankan_dynamic_island.bat` untuk langsung menjalankan Arch Panel + Arch Dock.
-3. Arch Dock akan muncul di bawah layar dan Arch Panel di atas. Taskbar Windows akan disembunyikan selama Arch Panel berjalan.
-4. Arahkan pointer mouse ke tepi bawah layar untuk memunculkan dock jika sedang tersembunyi.
-5. Klik kanan pada dock untuk menu opsi (Center Dock, Auto-hide, Exit Arch widgets).
+1. Clone atau salin folder tema ke komputer Anda, misalnya `Downloads\theme`.
+2. Pastikan file `ArchPanel.exe` ada di dalam folder tema (build dari sumber atau file yang tersedia).
+3. Klik dua kali `jalankan_dynamic_island.bat` untuk langsung menjalankan Arch Panel + Arch Dock.
+4. Arch Dock akan muncul di bawah layar dan Arch Panel di atas. Taskbar Windows akan disembunyikan selama Arch Panel berjalan.
+5. Arahkan pointer mouse ke tepi bawah layar untuk memunculkan dock jika sedang tersembunyi.
+6. Klik kanan pada dock untuk menu opsi (Center Dock, Auto-hide, Exit Arch widgets).
 
 ## Menghentikan & Memulihkan Taskbar Windows
 
